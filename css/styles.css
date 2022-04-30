@@ -23,9 +23,6 @@ h3 {
 .contact-height {
     height: 100%;
 }
-.container-fluid {
-    height: 100%;
-}
 .bg-red {
     background-color: rgba(209, 44, 52, 1);
 }
@@ -38,7 +35,6 @@ h3 {
 .padding-1p5rem {
     padding: 1.5rem;
 }
-
 .nav-font-size {
     font-size: large;
     font-weight: 600;
@@ -47,7 +43,9 @@ li{
     padding-left:5px;
     padding-right:15px;
   }
-
+.row2 {
+    padding-top: 20px;
+}
 /*Add :focus for accessibility*/
 .nav-link:hover, .nav-link:focus {
     text-decoration: underline;
@@ -81,11 +79,83 @@ li{
     padding: 3% 8%;
 }
 .contact-img {
-    background-image: url("../img/img2.jpg");
+    background-image: url("../img/profile_pic.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
+}
+
+.bio-img {
+    background-image: url("../img/bio_pic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.img1 {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/img1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img2 {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/img2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img3 {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/img3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img4 {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/img4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img5 {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/img5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img6 {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/img6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img7 {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/img7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img8 {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/img8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 /*=============================

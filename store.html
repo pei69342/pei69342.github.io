@@ -11,7 +11,7 @@
     <!-- User defined CSS -->
     <link href="css/styles.css" rel="stylesheet">
 
-    <title>Store</title>
+    <title>Tien-Hung Wu Photography</title>
   </head>
 
   <body class="store-height">
@@ -22,7 +22,7 @@
             <h1 class="header-font padding-1p5rem text-light">Tien-Hung Wu</h1>
           </div>
           <!-- menu navigation bar -->
-          <nav class="navbar navbar-expand-sm navbar-dark bg-red2">
+          <nav class="navbar navbar-expand-sm navbar-dark bg-red2" role="menubar">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -50,26 +50,66 @@
       <!-- Row 2 -->
       <div class="row bg-dark row-cols-1 row-cols-md-3 g-4 p-5 flex-grow-1">
         <div class="col">
-          <div class="card h-auto no-radius">
-            <img src="img/img1.jpg" class="card-img-top no-radius" alt="...">
+          <div class="card h-auto no-radius" role="img">
+            <img src="img/img1.jpg" class="card-img-top no-radius" alt="brown jellyfish upside down">
             <div class="card-body">
               <a data-bs-toggle="modal" href="#modal1" class="btn btn-secondary btn-outline-dark no-radius col-12 mx-auto">More details →</a>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-auto no-radius">
-            <img src="img/img2.jpg" class="card-img-top no-radius" alt="...">
+          <div class="card h-auto no-radius" role="img">
+            <img src="img/img2.jpg" class="card-img-top no-radius" alt="brown jellyfish dancing">
             <div class="card-body">
               <a data-bs-toggle="modal" href="#modal2" class="btn btn-secondary btn-outline-dark no-radius col-12 mx-auto">More details →</a>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-auto no-radius">
-            <img src="img/img3.jpg" class="card-img-top no-radius" alt="...">
+          <div class="card h-auto no-radius" role="img">
+            <img src="img/img3.jpg" class="card-img-top no-radius" alt="brown jellyfish in blue-lighted jar upside down">
             <div class="card-body">
               <a data-bs-toggle="modal" href="#modal3" class="btn btn-secondary btn-outline-dark no-radius col-12 mx-auto">More details →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-auto no-radius" role="img">
+            <img src="img/img4.jpg" class="card-img-top no-radius" alt="brown flower glowing at night">
+            <div class="card-body">
+              <a data-bs-toggle="modal" href="#modal4" class="btn btn-secondary btn-outline-dark no-radius col-12 mx-auto">More details →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-auto no-radius" role="img">
+            <img src="img/img5.jpg" class="card-img-top no-radius" alt="reed glowing at night">
+            <div class="card-body">
+              <a data-bs-toggle="modal" href="#modal5" class="btn btn-secondary btn-outline-dark no-radius col-12 mx-auto">More details →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-auto no-radius" role="img">
+            <img src="img/img6.jpg" class="card-img-top no-radius" alt="roof top with sea-gull passing by">
+            <div class="card-body">
+              <a data-bs-toggle="modal" href="#modal6" class="btn btn-secondary btn-outline-dark no-radius col-12 mx-auto">More details →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-auto no-radius" role="img">
+            <img src="img/img7.jpg" class="card-img-top no-radius" alt="view of lake framed by a window of train">
+            <div class="card-body">
+              <a data-bs-toggle="modal" href="#modal7" class="btn btn-secondary btn-outline-dark no-radius col-12 mx-auto">More details →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-auto no-radius" role="img">
+            <img src="img/img8.jpg" class="card-img-top no-radius" alt="view under the bridge with visible moon at daytime">
+            <div class="card-body">
+              <a data-bs-toggle="modal" href="#modal8" class="btn btn-secondary btn-outline-dark no-radius col-12 mx-auto">More details →</a>
             </div>
           </div>
         </div>
@@ -83,24 +123,18 @@
       </div>
     </div>
 
-
-
+    <!--Create pop up windows for each imgae-->
     <div class="modal" id="modal1" tabindex="-1">
       <div class="modal-dialog">
         <div class="modal-content bg-dark">
           <div class="modal-header">
+            <p class="text-light m-0">#THW001</p>
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body">
-            <img src="img/img1.jpg" class="card-img-top no-radius" alt="...">
-          </div>
+          <div class="modal-body img1" role="img"></div>
           <div class="modal-footer text-light d-block">
             <p>USD$ 10.00</p>
             <p><a href="contact.html" class="text-light link">Contact</a> me to purchase.</p>
-            <!--
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-            -->
           </div>
         </div>
       </div>
@@ -110,18 +144,13 @@
       <div class="modal-dialog">
         <div class="modal-content bg-dark">
           <div class="modal-header">
+            <p class="text-light m-0">#THW002</p>
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body">
-            <img src="img/img2.jpg" class="card-img-top no-radius" alt="...">
-          </div>
+          <div class="modal-body img2" role="img"></div>
           <div class="modal-footer text-light d-block">
             <p>USD$ 10.00</p>
             <p><a href="contact.html" class="text-light link">Contact</a> me to purchase.</p>
-            <!--
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-            -->
           </div>
         </div>
       </div>
@@ -131,23 +160,98 @@
       <div class="modal-dialog">
         <div class="modal-content bg-dark">
           <div class="modal-header">
+            <p class="text-light m-0">#THW003</p>
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body">
-            <img src="img/img3.jpg" class="card-img-top no-radius" alt="...">
-          </div>
+          <div class="modal-body img3" role="img"></div>
           <div class="modal-footer text-light d-block">
             <p>USD$ 10.00</p>
             <p><a href="contact.html" class="text-light link">Contact</a> me to purchase.</p>
-            <!--
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-            -->
           </div>
         </div>
       </div>
     </div>
 
+    <div class="modal" id="modal4" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <p class="text-light m-0">#THW004</p>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body img4" role="img"></div>
+          <div class="modal-footer text-light d-block">
+            <p>USD$ 10.00</p>
+            <p><a href="contact.html" class="text-light link">Contact</a> me to purchase.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal5" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <p class="text-light m-0">#THW005</p>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body img5" role="img"></div>
+          <div class="modal-footer text-light d-block">
+            <p>USD$ 10.00</p>
+            <p><a href="contact.html" class="text-light link">Contact</a> me to purchase.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal6" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <p class="text-light m-0">#THW006</p>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body img6" role="img"></div>
+          <div class="modal-footer text-light d-block">
+            <p>USD$ 10.00</p>
+            <p><a href="contact.html" class="text-light link">Contact</a> me to purchase.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal7" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <p class="text-light m-0">#THW007</p>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body img7" role="img"></div>
+          <div class="modal-footer text-light d-block">
+            <p>USD$ 10.00</p>
+            <p><a href="contact.html" class="text-light link">Contact</a> me to purchase.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal8" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <p class="text-light m-0">#THW008</p>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body img8" role="img"></div>
+          <div class="modal-footer text-light d-block">
+            <p>USD$ 10.00</p>
+            <p><a href="contact.html" class="text-light link">Contact</a> me to purchase.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
